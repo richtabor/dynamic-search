@@ -1,0 +1,54 @@
+/*!***************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/style.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.wp-block-create-block-dynamic-search {
+  background: rgba(0, 0, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  border-radius: 3px;
+}
+
+.wp-block-create-block-dynamic-search input {
+  background: transparent;
+  color: red;
+  border: none;
+  width: min(500px, 50vw);
+  height: 43px;
+  position: relative;
+  padding: 12px;
+}
+
+.wp-block-create-block-dynamic-search input::-moz-placeholder {
+  color: red;
+}
+
+.wp-block-create-block-dynamic-search input::placeholder {
+  color: red;
+}
+
+.wp-block-create-block-dynamic-search input:focus-visible {
+  color: var(--wp--preset--color--white);
+  background-color: #181818;
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  border-radius: 3px;
+  border: none;
+  padding: 12px;
+  outline: none;
+}
+
+.wp-block-create-block-dynamic-search > form {
+  position: relative;
+}
+
+/* Hide the label offscreen but it should still be present for a11y */
+.wp-block-create-block-dynamic-search .search-label {
+  position: absolute;
+  text-indent: -9999px;
+}
+
+/*# sourceMappingURL=style-index.css.map*/
